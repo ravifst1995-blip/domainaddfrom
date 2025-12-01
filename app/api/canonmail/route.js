@@ -33,7 +33,7 @@ export async function POST(req) {
     // Send email
     await transporter.sendMail({
       from: `"CANON Form" <${process.env.MAIL_CAN_USER}>`,
-      to: process.env.MAIL_HP_TO,
+      to: process.env.MAIL_CAN_TO,
       subject: "New CANON Printer Submission",
       text: `From: ${domainInfo}\nModel: ${canonmodel}`,
     });

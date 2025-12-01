@@ -32,7 +32,7 @@ export async function POST(req) {
     // Send the mail
     await transporter.sendMail({
       from: `"BROTHER Form" <${process.env.MAIL_BRO_USER}>`,
-      to: process.env.MAIL_HP_TO,
+      to: process.env.MAIL_BRO_TO,
       subject: "New BROTHER Printer Submission",
       text: `From: ${domainInfo}\nModel: ${bromodel}\nFull Name: ${fullName}\nPhone Number: ${phoneNumber}`,
       html: `
