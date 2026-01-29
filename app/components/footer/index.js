@@ -1,10 +1,8 @@
 // src/app/components/Footer.js
 "use client";
-import { useEffect } from "react";
+
 import LiveChatClient from "../LiveChatClient";
-useEffect(() => {
-  console.log("LiveChat mounted");   
-}, []);
+
 export default function Footer() {
   return (
    <>
