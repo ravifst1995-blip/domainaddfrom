@@ -9,4 +9,4 @@ const LiveChatWidget = dynamic(
 
 export default function LiveChatClient() {
   return <LiveChatWidget license="19476814" />;
-}
+} 
