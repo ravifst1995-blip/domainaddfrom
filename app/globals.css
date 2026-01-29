@@ -44,6 +44,9 @@ button[disabled] { opacity: 0.6; cursor: not-allowed; }
   animation: spin 0.7s linear infinite;
 }
 @keyframes spin { to { transform: rotate(360deg); } }
+#livechat-compact-container {
+  z-index: 999999 !important;
+}
 
 textarea {
     resize: vertical;
