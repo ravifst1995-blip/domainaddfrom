@@ -68,7 +68,9 @@ textarea {
   padding: 10px 12px; border-radius: 14px; word-wrap: break-word; white-space: pre-wrap;
   box-shadow: 0 1px 1px rgba(0,0,0,.05);
 }
-
+#livechat-compact-container {
+  z-index: 999999 !important;
+}
 .bubble.me {
   background: #2563eb; color: #fff;
   border-bottom-right-radius: 4px;
