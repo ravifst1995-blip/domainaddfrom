@@ -2,7 +2,9 @@
 "use client";
 
 import LiveChatClient from "../LiveChatClient";
-
+useEffect(() => {
+  console.log("LiveChat mounted");
+}, []);
 export default function Footer() {
   return (
    <>
